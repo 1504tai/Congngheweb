@@ -1,0 +1,118 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header img{
+    height: 200px;
+    width: 1000px;
+    position: relative;
+}
+
+p{
+    position:absolute;
+    top: 55px;
+    left: 400px;
+    font-size: xx-large;
+    color: blue;
+    text-shadow: 2px 2px yellow;
+}
+
+.menu li{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    left: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: solid 3px rgb(37, 27, 27);
+    text-shadow: 2px 2px rgb(153, 110, 110);
+    list-style-type: none;
+    padding: 10px;
+    height: 20px;
+    width: 70px;
+    
+}
+
+.menu li:hover{
+    background-color: aquamarine;
+    color: wheat;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.menu li:nth-child(5){
+    left: 670px;
+    top: 150px;
+}
+.menu li:nth-child(4){
+    left: 570px;
+    top: 150px;
+}
+.menu li:nth-child(3){
+    left: 470px;
+    top: 150px;
+}
+.menu li:nth-child(2){
+    left: 370px;
+    top: 150px;
+}
+.menu li:nth-child(1){
+    left: 270px;
+    top: 150px;
+}
+
+ul .search{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    height: 30px;
+    width: auto;
+}
+
+nav img{
+    float: left;
+    width: 650px;
+    height: 481px;
+}
+
+form{
+    margin: auto;
+    margin-top: 0px;
+    width: 304px;
+    padding: 10px;
+    border: 1px solid #000;
+    float: right;
+    background-color: rgb(112, 247, 247);
+}
+h1{
+    margin-bottom: 24px;
+    margin-left: 100px;
+    color: rgb(11, 74, 246);
+}
+p{
+    margin-bottom: 24px;
+    margin-left: 70px;
+}
+.w-full{
+
+    width: 100%;
+}
+form input{
+    margin-bottom: 24px;
+}
+.row input{
+    width:100%;
+    display: inline-block;
+}
+.ns{
+    display: block;
+    margin-bottom: 20px;
+}
+.m-0{
+    margin: 0;
+}
